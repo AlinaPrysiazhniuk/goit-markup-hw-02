@@ -117,7 +117,7 @@ body {
   opacity: 0;
 }
 
-.features-subtittle {
+.features-subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1, 1429;
@@ -133,7 +133,7 @@ body {
 
 .header-nav-item,
 .header-contacts-item,
-.featuers-item,
+.features-item,
 .team-item,
 .work-item,
 .footer-contacts-item,
@@ -228,7 +228,7 @@ body {
   background-color: var(--accent-color);
 }
 
-.portfolio-projects-subtittle {
+.portfolio-projects-subtitle {
   font-weight: 700;
   font-size: 18px;
   line-height: 2, 0000;
@@ -242,13 +242,13 @@ body {
   color: var(--first-color);
 }
 
-.portfolio-projects-subtittle:hover,
+.portfolio-projects-subtitle:hover,
 .portfolio-projects-text:hover {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
 }
 
-.portfolio-projects-subtittle:focus,
+.portfolio-projects-subtitle:focus,
 .portfolio-projects-text:focus {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
