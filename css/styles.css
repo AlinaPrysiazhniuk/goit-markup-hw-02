@@ -1,0 +1,246 @@
+:root {
+  --first-color: #212121;
+  --accent-color: #2196f3;
+  --accent-color-text: #ffffff;
+  --hero-color: #ffffff;
+  --text-color: #757575;
+  --portfolio-button-color: #f5f4fa;
+  --team-background-color: #f5f4fa;
+  --hero-footer-background-color: #2f303a;
+  --hero-color-button: #188ce8;
+}
+
+body {
+  font-family: Roboto, Times New Roman, Arial, Helvetica, sans-serif;
+  color: var(--first-color);
+}
+
+.header-nav-logo,
+.header-nav-link,
+.header-contacts-link,
+.footer-logo-begin,
+.footer-contacts-address,
+.footer-contacts-link,
+.portfolio-projects-link {
+  text-decoration: none;
+}
+
+.header-nav-logo,
+.footer-logo-begin,
+.features-list,
+.work-tittle,
+.team-tittle,
+.team-name,
+.team-position,
+.footer-contacts-address,
+.footer-contacts-link,
+.portfolio-filters-button,
+.portfolio-projects-text {
+  letter-spacing: 0.03em;
+}
+
+.header-nav-logo,
+.footer-logo-begin {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 1923;
+}
+
+.header-nav-logo {
+  font-family: Raleway, sans-serif;
+  color: var(--accent-color);
+}
+
+.nav-logo {
+  color: #000000;
+}
+
+.header-nav-link,
+.header-contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 1429;
+  letter-spacing: 0.02em;
+}
+
+.header-nav-link {
+  color: var(--first-color);
+}
+
+.header-contacts-link {
+  color: var(--text-color);
+}
+
+.header-nav-link:hover,
+.header-contacts-link:hover,
+.header-nav-link:focus,
+.header-contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.hero,
+.footer {
+  background-color: var(--hero-footer-background-color);
+}
+
+.hero-tittle,
+.hero-button {
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--hero-color);
+}
+
+.hero-tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 3636;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 875;
+  color: var(--hero-color);
+  background-color: var(--hero-color-button);
+  cursor: pointer;
+}
+
+.features-tittle,
+.portfolio-tittle {
+  opacity: 0;
+}
+
+.features-subtittle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 1429;
+  text-transform: uppercase;
+  color: var(--first-color);
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1, 7143;
+  color: var(--text-color);
+}
+
+.header-nav-item,
+.header-contacts-item,
+.featuers-item,
+.team-item,
+.work-item,
+.footer-contacts-item,
+.portfolio-filters-item,
+.portfolio-projects-item {
+  list-style-type: none;
+}
+
+.work-tittle,
+.team-tittle,
+.team-name,
+.team-position {
+  text-align: center;
+}
+
+.work-tittle,
+.team-tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 1667;
+  color: var(--first-color);
+}
+
+.team {
+  background-color: var(--team-background-color);
+}
+
+.team-name,
+.team-position {
+  font-size: 16px;
+  line-height: 1, 1875;
+}
+
+.team-name {
+  font-weight: 500;
+  color: var(--first-color);
+}
+
+.team-position {
+  color: var(--text-color);
+}
+
+.footer-logo-begin {
+  color: var(--accent-color);
+}
+
+.footer-logo-end {
+  color: var(--accent-color-text);
+}
+
+.footer-contacts-address,
+.footer-contacts-link {
+  font-size: 14px;
+  line-height: 1, 7143;
+}
+
+.footer-contacts-address {
+  font-style: normal;
+  color: var(--accent-color-text);
+}
+
+.footer-contacts-link {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus,
+.footer-contacts-address:hover,
+.footer-contacts-address:focus {
+  color: var(--accent-color);
+}
+
+.portfolio-filters-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 625;
+  text-align: center;
+  color: var(--first-color);
+  background-color: var(--portfolio-button-color);
+  cursor: pointer;
+}
+
+.portfolio-filters-button:hover,
+.portfolio-filters-button:focus {
+  color: var(--accent-color-text);
+  background-color: var(--accent-color);
+}
+
+.portfolio-projects-subtittle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2, 0000;
+  letter-spacing: 0.06em;
+  color: var(--first-color);
+}
+
+.portfolio-projects-text {
+  font-size: 16px;
+  line-height: 1, 875;
+  color: var(--first-color);
+}
+
+.portfolio-projects-subtittle:hover,
+.portfolio-projects-text:hover {
+  color: var(--accent-color-text);
+  background-color: var(--accent-color);
+}
+
+.portfolio-projects-subtittle:focus,
+.portfolio-projects-text:focus {
+  color: var(--accent-color-text);
+  background-color: var(--accent-color);
+}
