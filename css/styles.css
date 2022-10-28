@@ -202,6 +202,10 @@ body {
   color: var(--accent-color);
 }
 
+.portfolio-projects-link {
+  background-color: var(--accent-color-text);
+}
+
 .portfolio-filters-button {
   font-family: inherit;
   font-weight: 500;
