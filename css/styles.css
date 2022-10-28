@@ -90,6 +90,11 @@ body {
   color: var(--hero-color);
 }
 
+.hero-button,
+.portfolio-filters-button {
+  border: none;
+}
+
 .hero-tittle {
   font-weight: 900;
   font-size: 44px;
