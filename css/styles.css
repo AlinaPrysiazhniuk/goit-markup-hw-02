@@ -46,7 +46,10 @@ body {
   line-height: 1, 1923;
 }
 
-.header-nav-logo {
+.header-nav-logo,
+.nav-logo,
+.footer-logo-begin,
+.footer-logo-end {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);
 }
