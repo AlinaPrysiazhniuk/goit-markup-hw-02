@@ -95,6 +95,11 @@ body {
   border: none;
 }
 
+.hero-button {
+  width: 216px;
+  height: 50px;
+}
+
 .hero-tittle {
   font-weight: 900;
   font-size: 44px;
@@ -207,7 +212,35 @@ body {
   color: var(--accent-color);
 }
 
-.portfolio-projects-link {
+.btn-size-all,
+.btn-size-app,
+.btn-size-design,
+.btn-size-mark,
+.btn-size-web {
+  height: 38px;
+}
+
+.btn-size-all {
+  width: 73px;
+}
+
+.btn-size-web {
+  width: 125px;
+}
+
+.btn-size-app {
+  width: 112px;
+}
+
+.btn-size-design {
+  width: 103;
+}
+
+.btn-size-mark {
+  width: 130;
+}
+
+.portfolio-projects-item {
   background-color: var(--accent-color-text);
 }
 
@@ -244,12 +277,6 @@ body {
 
 .portfolio-projects-subtitle:hover,
 .portfolio-projects-text:hover {
-  color: var(--accent-color-text);
-  background-color: var(--accent-color);
-}
-
-.portfolio-projects-subtitle:focus,
-.portfolio-projects-text:focus {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
 }
