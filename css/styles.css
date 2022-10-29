@@ -10,6 +10,7 @@
   --hero-color-button: #188ce8;
   --main-background-color: #ffffff;
   --contacts-link-color: rgba(255, 255, 255, 0.6);
+  --nav-logo-color: #000000;
 }
 
 body {
@@ -58,7 +59,7 @@ body {
 }
 
 .nav-logo {
-  color: #000000;
+  color: var(--nav-logo-color);
 }
 
 .header-nav-link,
